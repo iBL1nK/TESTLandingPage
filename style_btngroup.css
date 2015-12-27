@@ -29,6 +29,10 @@ body {
     border-top: gray solid 1px;
     padding-top: 10px;
 }
+.button_board .btn{
+    height: 46px;
+    padding-top: 13px;
+}
 .button_board > .btn:last-child:not(:first-child),
 .button_board > .dropdown-toggle:not(:first-child) {
     border-top-left-radius: 0px;

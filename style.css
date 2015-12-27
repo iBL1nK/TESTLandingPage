@@ -24,6 +24,10 @@ body {
 .TEST_announce {
     margin-top: 0px;
 }
+.button_board .btn{
+    height: 46px;
+    padding-top: 13px;
+}
 .button_board {
     margin-top:10px;
     border-top: gray solid 1px;

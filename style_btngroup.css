@@ -1,0 +1,64 @@
+/* 
+    Created on : Dec 27, 2015, 3:19:39 PM
+    Author     : iBL1nK Erquilenne
+*/
+
+body { 
+  background: url(bg_eve.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.TEST_container {
+    background: rgba(255,255,255,0.6);
+    padding: 25px 25px 25px 25px;
+    border-radius: 5px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 300px;
+    float: none !important;
+    text-align: center;
+    overflow:hidden;
+}
+.TEST_announce {
+    margin-top: 0px;
+}
+.button_board {
+    margin-top:10px;
+    border-top: gray solid 1px;
+    padding-top: 10px;
+}
+.button_board > .btn:last-child:not(:first-child),
+.button_board > .dropdown-toggle:not(:first-child) {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+.button_board > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right-color: #e6e6e6;
+    border-bottom-color: #e6e6e6;
+}
+.button_board > .btn:nth-child(2):not(:last-child):not(.dropdown-toggle) {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left-color: transparent;
+    border-bottom-color: #e6e6e6;
+}
+.button_board > .btn:nth-child(3):not(:last-child):not(.dropdown-toggle) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right-color: #e6e6e6;
+    border-top-color: transparent;
+}
+.TESTmenu {
+    float: left;
+    margin-top: -10px;
+}

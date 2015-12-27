@@ -1,0 +1,52 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+?>
+<html>
+  <head>
+    <title>TEST Alliance Please Ignore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+       <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+        <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+            <!-- This very simple landing page is courtesy of iBL1nK Erquilenne. Pls send ISK -->
+            
+  </head>
+  <body>
+      <div class="TEST_container center-block col-xs-12 col-sm-6 col-md-5">
+          
+          <!-- Burger button -->
+            <div class="TESTmenu btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                <ul class="dropdown-menu">
+                    <li><a href="http://intelmap.net/">Intel Map</a>
+                    <li><a href="http://reimbursement.pleaseignore.com/">Reimbursements</a></li>
+                    <li><a href="https://skills.pleaseignore.com/">Skill Checker</a></li>
+                    <li><a href="http://timers.pleaseignore.com/">Timers</a></li>
+                </ul>
+            </div>
+          
+          <img src="logo.png" alt="TEST Alliance Please Ignore" width="200"/>
+          <h1 class="TEST_announce">TEST Alliance Please Ignore</h1>
+          <a href="https://wiki.pleaseignore.com/" class="btn btn-primary btn-lg btn-block" role="button">Join the Revolution</a>
+          
+          <div class="button_board">
+            <a href="https://auth.pleaseignore.com/" class="btn btn-default col-xs-6" role="button">Auth</a>
+            <a href="https://forum.pleaseignore.com/" class="btn btn-default col-xs-6" role="button">Forums</a>
+            <a href="https://zkillboard.com/alliance/498125261/" class="btn btn-default col-xs-6" role="button">Killboard</a>
+            <a href="https://wiki.pleaseignore.com/" class="btn btn-default col-xs-6" role="button">Wiki</a>
+          </div>
+          
+      </div>
+  </body>
+</html>

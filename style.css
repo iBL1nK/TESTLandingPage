@@ -1,0 +1,35 @@
+/* 
+    Created on : Dec 27, 2015, 3:19:39 PM
+    Author     : iBL1nK Erquilenne
+*/
+
+body { 
+  background: url(bg_eve.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.TEST_container {
+    background: rgba(255,255,255,0.6);
+    padding: 25px 25px 25px 25px;
+    border-radius: 5px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 300px;
+    float: none !important;
+    text-align: center;
+    overflow:hidden;
+}
+.TEST_announce {
+    margin-top: 0px;
+}
+.button_board {
+    margin-top:10px;
+    border-top: gray solid 1px;
+    padding-top: 10px;
+}
+.TESTmenu {
+    float: left;
+    margin-top: -10px;
+}
